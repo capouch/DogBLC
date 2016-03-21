@@ -61,6 +61,7 @@ public class Dog {
     public void setName(String newName) {
     	name = newName;
     }
+    
     // The parameter newWeight is sent into this method see p. 74
     public void setWeight(int newWeight) {
     	weight = newWeight;
