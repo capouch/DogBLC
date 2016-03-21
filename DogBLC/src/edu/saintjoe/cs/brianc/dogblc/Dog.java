@@ -8,9 +8,7 @@ package edu.saintjoe.cs.brianc.dogblc;
  */
 
 public class Dog {
-	
 	// This class (for now) has but a single data member
-	
 	/* Note that this is now an encapsulated class as per pp. 80-82!! */
 	// This value represents the dog's name, and is a String object
     private String name;
@@ -20,6 +18,7 @@ public class Dog {
     
     /* -------------------------------------------------------- */
     
+    // See p. 73 this method really belongs in a "driver" class
     public static void main(String[] args) {
         Dog dog1 = new Dog();
         Dog dog2;
