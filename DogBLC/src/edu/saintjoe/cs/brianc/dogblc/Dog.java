@@ -84,9 +84,9 @@ public class Dog {
     	if (weight > 60 ) {
           System.out.println("Woof!! Woof!! says " + name + " that weighs " + weight);
     	} else if (weight > 14 ) {
-    	System.out.println("Ruff!! Ruff!! says " + name + " that weighs " + weight);
+    		System.out.println("Ruff!! Ruff!! says " + name + " that weighs " + weight);
     	} else
-    	System.out.println("Yip!! Yip!! says " + name + " that weighs " + weight);
+    		System.out.println("Yip!! Yip!! says " + name + " that weighs " + weight);
     }
     
     // Example of multiple parameters - NOT a good example of programming style - see p. 76
@@ -94,6 +94,7 @@ public class Dog {
     	
     	// Here's an example of the use of a local variable, i.e. it really does something
     	int oldWeight = weight;
+    	
     	name = newName;
     	weight = newWeight;
     	return oldWeight;
