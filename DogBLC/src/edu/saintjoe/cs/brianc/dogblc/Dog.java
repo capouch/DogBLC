@@ -83,9 +83,9 @@ public class Dog {
     	
     	if (weight > 60 ) {
           System.out.println("Woof!! Woof!! says " + name + " that weighs " + weight);
-    } else if (weight > 14 ) {
+    	} else if (weight > 14 ) {
     	System.out.println("Ruff!! Ruff!! says " + name + " that weighs " + weight);
-    } else
+    	} else
     	System.out.println("Yip!! Yip!! says " + name + " that weighs " + weight);
     }
     
